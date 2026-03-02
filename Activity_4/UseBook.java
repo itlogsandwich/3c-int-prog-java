@@ -6,7 +6,6 @@ public class UseBook
   {
     Scanner input = new Scanner(System.in);
     String title = "";
-    double price = 0.00;
 
     IO.println("Tell me about this Fictional Book");
 

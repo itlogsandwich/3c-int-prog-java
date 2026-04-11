@@ -40,7 +40,8 @@ class FileHandling
                         double num = Double.parseDouble(val);
                         sum += num;
                         count++;
-                    } catch (NumberFormatException e) 
+                    }
+                    catch (NumberFormatException e) 
                     {
                         System.out.println("Skipped invalid value: " + val);
                     }
